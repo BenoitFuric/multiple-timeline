@@ -1,0 +1,186 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+
+        "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+<html lang="en">
+
+
+
+<head>
+
+
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>Wenger, la stabilité en Premier League</title>
+
+<style type="text/css">
+
+h1 {
+  text-align: center;
+  font-family: Arial;
+}
+
+p {
+  font-family:Arial;
+  font-size:13px;
+}
+</style>
+
+
+</head>
+
+
+
+<body>
+
+<script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization',
+       'version':'1','packages':['timeline']}]}"></script>
+<script type="text/javascript">
+
+google.setOnLoadCallback(drawChart);
+function drawChart() {
+
+  var container = document.getElementById('example3.1');
+  var chart = new google.visualization.Timeline(container);
+
+  var dataTable = new google.visualization.DataTable();
+  dataTable.addColumn({ type: 'string', id: 'Position' });
+  dataTable.addColumn({ type: 'string', id: 'Name' });
+  dataTable.addColumn({ type: 'string', role: 'tooltip', 'p': {'html': true} });
+  dataTable.addColumn({ type: 'date', id: 'Start' });
+  dataTable.addColumn({ type: 'date', id: 'End' });
+  dataTable.addRows([
+    [ "Arsenal", "Arsène Wenger", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><img src=\"http://medias.lequipe.fr/img-photo-jpg/28th-april-2013-barclays-premier-league-arsenal-v-manchester-united-arsene-wenger-manager-of/1500000000283089/59:76,2048:1299-665-335-70/f5f88.jpg\" width=\"300px\"><br><b>Arsène Wenger<\/b><br><br>Sur le banc depuis le 1er octobre 1996.<\/div>", new Date(1996, 10, 1), new Date(2016, 1, 8) ],
+    [ "Everton", "Joe Royle", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Joe Royle<\/b><br><br>Sur le banc du 21/11/1994 au 27/03/1997.<\/div>", new Date(1996, 10, 1), new Date(1997, 3, 27) ],
+    [ "Everton", "Howard Kendall", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Howard Kendall<\/b><br><br>Sur le banc du 27/06/1997 au 10/05/1998.<\/div>", new Date(1997, 6, 27), new Date(1998, 5, 10) ],
+    [ "Everton", "Walter Smith", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Walter Smith<\/b><br><br>Sur le banc du 15/08/1998 au 10/03/2002.<\/div>", new Date(1998, 8, 15), new Date(2002, 3, 10) ],
+    [ "Everton", "David Moyes", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><img src=\"http://medias.lequipe.fr/img-photo-jpg/moyes/1500000000402287/1205:67,1870:401-665-335-70/0a101.jpg\" width=\"300px\"><br><b>David Moyes<\/b><br><br>Sur le banc du 14/03/2002 au 09/05/2013.<\/div>", new Date(2002, 3, 14), new Date(2013, 5, 9) ],
+    [ "Everton", "Roberto Martinez", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Roberto Martinez<\/b><br><br>Sur le banc depuis le 28/05/2013.<\/div>", new Date(2013, 5, 28), new Date(2016, 1, 8) ],
+    [ "Liverpool", "Roy Evans", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Roy Evans<\/b><br><br>Sur le banc du 31/01/1994 au 16/07/1998.<\/div>", new Date(1996, 10, 1), new Date(1998, 7, 16) ],
+    [ "Liverpool", "Gérard Houllier", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Gérard Houllier<\/b><br><br>Sur le banc du 12/11/1998 au 24/05/2004.<\/div>", new Date(1998, 11, 12), new Date(2004, 5, 24) ],
+    [ "Liverpool", "Rafael Benitez", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Rafael Benitez<\/b><br><br>Sur le banc du 16/06/2004 au 03/06/2010.<\/div>", new Date(2004, 6, 16), new Date(2010, 6, 3) ],
+    [ "Liverpool", "Roy Hodgson", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Roy Hodgson<\/b><br><br>Sur le banc du 01/07/2010 au 08/01/2011.<\/div>", new Date(2010, 7, 1), new Date(2011, 1, 8) ],
+    [ "Liverpool", "Kenny Dalglish", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Kenny Dalglish<\/b><br><br>Sur le banc du 09/01/2011 au 16/05/2012.<\/div>", new Date(2011, 1, 9), new Date(2012, 5, 16) ],
+    [ "Liverpool", "Brendan Rodgers", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Brendan Rodgers<\/b><br><br>Sur le banc du 01/06/2012 au 04/10/2015.<\/div>", new Date(2012, 6, 1), new Date(2015, 10, 4) ],
+    [ "Liverpool", "Jürgen Klopp", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Jürgen Klopp<\/b><br><br>Sur le banc depuis le 08/10/2015.<\/div>", new Date(2015, 10, 8), new Date(2016, 1, 8) ],
+    [ "Tottenham", "Gerry Francis", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Gerry Francis<\/b><br><br>Sur le banc du 15/11/1994 au 19/11/1997.<\/div>", new Date(1996, 10, 1), new Date(1997, 11, 19) ],
+    [ "Tottenham", "Christian Gross", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Christian Gross<\/b><br><br>Sur le banc du 20/11/1997 au 06/09/1998.<\/div>", new Date(1997, 11, 20), new Date(1998, 9, 6) ],
+    [ "Tottenham", "George Graham", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>George Graham<\/b><br><br>Sur le banc du 01/10/1998 au 16/03/2001.<\/div>", new Date(1998, 10, 1), new Date(2001, 3, 16) ],
+    [ "Tottenham", "Glenn Hoddle", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Glenn Hoddle<\/b><br><br>Sur le banc du 30/03/2001 au 21/09/2003.<\/div>", new Date(2001, 3, 30), new Date(2003, 9, 21) ],
+    [ "Tottenham", "David Pleat", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>David Pleat<\/b><br><br>Sur le banc du 21/09/2003 au 03/06/2004.<\/div>", new Date(2003, 9, 21), new Date(2004, 6, 3) ],
+    [ "Tottenham", "Jacques Santini", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Jacques Santini<\/b><br><br>Sur le banc du 23/06/2004 au 06/11/2004.<\/div>", new Date(2004, 6, 23), new Date(2004, 11, 6) ],
+    [ "Tottenham", "Martin Jol", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Martin Jol<\/b><br><br>Sur le banc du 08/11/2004 au 25/10/2007.<\/div>", new Date(2004, 11, 8), new Date(2007, 10, 25) ],
+    [ "Tottenham", "Juande Ramos", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Juande Ramos<\/b><br><br>Sur le banc du 27/10/2007 au 25/10/2008.<\/div>", new Date(2007, 10, 27), new Date(2008, 10, 25) ],
+    [ "Tottenham", "Harry Redknapp", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Harry Redknapp<\/b><br><br>Sur le banc du 26/10/2008 au 13/06/2012.<\/div>", new Date(2008, 10, 26), new Date(2012, 6, 13) ],
+    [ "Tottenham", "André Villas-Boas", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>André Villas-Boas<\/b><br><br>Sur le banc du 03/07/2012 au 16/12/2013.<\/div>", new Date(2012, 7, 3), new Date(2013, 12, 16) ],
+    [ "Tottenham", "Tim Sherwood", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Tim Sherwood<\/b><br><br>Sur le banc du 16/12/2013 au 13/05/2014.<\/div>", new Date(2013, 12, 16), new Date(2014, 5, 13) ],
+    [ "Tottenham", "Mauricio Pochettino", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Mauricio Pochettino<\/b><br><br>Sur le banc depuis le 27/05/2014.<\/div>", new Date(2014, 5, 27), new Date(2016, 1, 8) ],
+    [ "Man. United", "Alex Ferguson", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><img src=\"http://medias.lequipe.fr/img-photo-jpg/sir-alex-ferguson-quittera-manchester-united-a-fin-de-la-saison/1500000000273075/0:85,2048:1117-665-0-70/c9f18.jpg\" width=\"300px\"><br><b>Alex Ferguson<\/b><br><br>Sur le banc du 06/11/1986 au 08/05/2013.<\/div>", new Date(1996, 10, 1), new Date(2013, 5, 8) ],
+    [ "Man. United", "David Moyes", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><img src=\"http://medias.lequipe.fr/img-photo-jpg/moyes/1500000000402287/1205:67,1870:401-665-335-70/0a101.jpg\" width=\"300px\"><br><b>David Moyes<\/b><br><br>Sur le banc du 09/05/2013 au 22/04/2014.<\/div>", new Date(2013, 5, 9), new Date(2014, 4, 22) ],
+    [ "Man. United", "Louis Van Gaal", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Louis Van Gaal<\/b><br><br>Sur le banc depuis le 16/07/2014.<\/div>", new Date(2014, 7, 16), new Date(2016, 1, 8) ],
+    [ "Aston Villa", "Brian Little", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Brian Little<\/b><br><br>Sur le banc du 25/11/1994 au 21/02/1998.<\/div>", new Date(1996, 10, 1), new Date(1998, 2, 21) ],
+    [ "Aston Villa", "John Gregory", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>John Gregory<\/b><br><br>Sur le banc du 22/02/1998 au 24/01/2002.<\/div>", new Date(1998, 2, 22), new Date(2002, 1, 24) ],
+    [ "Aston Villa", "Graham Taylor", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Graham Taylor<\/b><br><br>Sur le banc du 01/02/2002 au 14/05/2003.<\/div>", new Date(2002, 2, 1), new Date(2003, 5, 14) ],
+    [ "Aston Villa", "David O'Leary", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>David O'Leary<\/b><br><br>Sur le banc du 01/06/2003 au 19/07/2006.<\/div>", new Date(2003, 6, 1), new Date(2006, 7, 19) ],
+    [ "Aston Villa", "Martin O'Neill", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Martin O'Neill<\/b><br><br>Sur le banc du 04/08/2006 au 09/08/2010.<\/div>", new Date(2006, 8, 4), new Date(2010, 8, 9) ],
+    [ "Aston Villa", "Gérard Houllier", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Gérard Houllier<\/b><br><br>Sur le banc du 08/09/2010 au 01/06/2011.<\/div>", new Date(2010, 9, 8), new Date(2011, 6, 1) ],
+    [ "Aston Villa", "Alex Mc Leish", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Alex Mc Leish<\/b><br><br>Sur le banc du 17/06/2011 au 14/05/2012.<\/div>", new Date(2011, 6, 17), new Date(2012, 5, 14) ],
+    [ "Aston Villa", "Paul Lambert", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Paul Lambert<\/b><br><br>Sur le banc du 02/06/2012 au 11/02/2015.<\/div>", new Date(2012, 6, 2), new Date(2015, 2, 11) ],
+    [ "Aston Villa", "Tim Sherwood", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Tim Sherwood<\/b><br><br>Sur le banc du 14/02/2015 au 25/10/2015.<\/div>", new Date(2015, 2, 14), new Date(2015, 10, 25) ],
+    [ "Aston Villa", "Rémi Garde", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Rémi Garde<\/b><br><br>Sur le banc depuis le 01/11/2015.<\/div>", new Date(2015, 11, 1), new Date(2016, 1, 8) ],
+    [ "Chelsea", "Ruud Gullit", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Ruud Gullit<\/b><br><br>Sur le banc du 10/05/1996 au 12/02/1998.<\/div>", new Date(1996, 10, 1), new Date(1998, 2, 12) ],
+    [ "Chelsea", "Gianluca Vialli", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Gianluca Vialli<\/b><br><br>Sur le banc du 12/02/1998 au 12/09/2000.<\/div>", new Date(1998, 2, 12), new Date(2000, 9, 12) ],
+    [ "Chelsea", "Claudio Ranieri", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Claudio Ranieri<\/b><br><br>Sur le banc du 18/09/2000 au 30/05/2004.<\/div>", new Date(2000, 9, 18), new Date(2004, 5, 30) ],
+    [ "Chelsea", "José Mourinho", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>José Mourinho<\/b><br><br>Sur le banc du 02/06/2004 au 19/09/2007.<\/div>", new Date(2004, 6, 2), new Date(2007, 9, 19) ],
+    [ "Chelsea", "Avram Grant", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Avram Grant<\/b><br><br>Sur le banc du 20/09/2007 au 24/05/2008.<\/div>", new Date(2007, 9, 20), new Date(2008, 5, 24) ],
+    [ "Chelsea", "Luiz Felipe Scolari", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Luiz Felipe Scolari<\/b><br><br>Sur le banc du 01/07/2008 au 09/02/2009.<\/div>", new Date(2008, 7, 1), new Date(2009, 2, 9) ],
+    [ "Chelsea", "Guus Hiddink", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Guus Hiddink<\/b><br><br>Sur le banc du 16/02/2009 au 30/05/2009.<\/div>", new Date(2009, 2, 16), new Date(2009, 5, 30) ],
+    [ "Chelsea", "Carlo Ancelotti", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Carlo Ancelotti<\/b><br><br>Sur le banc du 01/07/2009 au 22/05/2011.<\/div>", new Date(2009, 7, 1), new Date(2011, 5, 22) ],
+    [ "Chelsea", "André Villas-Boas", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>André Villas-Boas<\/b><br><br>Sur le banc du 22/06/2011 au 04/03/2012.<\/div>", new Date(2011, 6, 22), new Date(2012, 3, 4) ],
+    [ "Chelsea", "Roberto Di Matteo", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Roberto Di Matteo<\/b><br><br>Sur le banc du 04/03/2012 au 21/11/2012.<\/div>", new Date(2012, 3, 4), new Date(2012, 11, 21) ],
+    [ "Chelsea", "Rafael Benitez", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Rafael Benitez<\/b><br><br>Sur le banc du 21/11/2012 au 27/05/2013.<\/div>", new Date(2012, 11, 21), new Date(2013, 5, 27) ],
+    [ "Chelsea", "José Mourinho", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>José Mourinho<\/b><br><br>Sur le banc du 03/06/2013 au 19/12/2015.<\/div>", new Date(2013, 6, 3), new Date(2015, 12, 19) ],
+    [ "Chelsea", "Guus Hiddink", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Guus Hiddink<\/b><br><br>Sur le banc depuis le 19/12/2015.<\/div>", new Date(2015, 12, 19), new Date(2016, 1, 8) ],
+    [ "Man. City", "Asa Hartford", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Asa Hartford<\/b><br><br>Sur le banc du 26/08/1996 au 07/10/1996.<\/div>", new Date(1996, 10, 1), new Date(1996, 10, 7) ],
+    [ "Man. City", "Steve Coppel", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Steve Coppel<\/b><br><br>Sur le banc du 07/10/1996 au 08/11/1996.<\/div>", new Date(1996, 10, 7), new Date(1996, 11, 8) ],
+    [ "Man. City", "Phil Neal", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Phil Neal<\/b><br><br>Sur le banc du 09/11/1996 au 28/12/1996.<\/div>", new Date(1996, 11, 9), new Date(1996, 12, 28) ],
+    [ "Man. City", "Frank Clark", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Frank Clark<\/b><br><br>Sur le banc du 29/12/1996 au 17/02/1998.<\/div>", new Date(1996, 12, 29), new Date(1998, 2, 17) ],
+    [ "Man. City", "Joe Royle", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Joe Royle<\/b><br><br>Sur le banc du 18/02/1998 au 21/05/2001.<\/div>", new Date(1998, 2, 18), new Date(2001, 5, 21) ],
+    [ "Man. City", "Kevin Keegan", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Kevin Keegan<\/b><br><br>Sur le banc du 24/05/2001 au 11/03/2005.<\/div>", new Date(2001, 5, 24), new Date(2005, 3, 11) ],
+    [ "Man. City", "Stuart Pearce", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Stuart Pearce<\/b><br><br>Sur le banc du 21/03/2005 au 14/05/2007.<\/div>", new Date(2005, 3, 21), new Date(2007, 5, 14) ],
+    [ "Man. City", "Sven-Göran Eriksson", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Sven-Göran Eriksson<\/b><br><br>Sur le banc du 06/07/2007 au 02/06/2008.<\/div>", new Date(2007, 7, 6), new Date(2008, 6, 2) ],
+    [ "Man. City", "Mark Hugues", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Mark Hugues<\/b><br><br>Sur le banc du 04/06/2008 au 19/12/2009.<\/div>", new Date(2008, 6, 4), new Date(2009, 12, 19) ],
+    [ "Man. City", "Roberto Mancini", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Roberto Mancini<\/b><br><br>Sur le banc du 19/12/2009 au 13/05/2013.<\/div>", new Date(2009, 12, 19), new Date(2013, 5, 13) ],
+    [ "Man. City", "Manuel Pellegrini", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Manuel Pellegrini<\/b><br><br>Sur le banc depuis le 14/06/2013.<\/div>", new Date(2013, 6, 14), new Date(2016, 1, 8) ],
+    [ "Sunderland", "Peter Reid", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Peter Reid<\/b><br><br>Sur le banc du 29/03/1995 au 07/10/2002.<\/div>", new Date(1996, 10, 1), new Date(2002, 10, 7) ],
+    [ "Sunderland", "Howard Wilkinson", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Howard Wilkinson<\/b><br><br>Sur le banc du 10/10/2002 au 10/03/2003.<\/div>", new Date(2002, 10, 10), new Date(2003, 3, 10) ],
+    [ "Sunderland", "Mick McCarthy", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Mick McCarthy<\/b><br><br>Sur le banc du 12/03/2003 au 06/03/2006.<\/div>", new Date(2003, 3, 12), new Date(2006, 3, 6) ],
+    [ "Sunderland", "Kevin Ball", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Kevin Ball<\/b><br><br>Sur le banc du 07/03/2006 au 31/05/2006.<\/div>", new Date(2006, 3, 7), new Date(2006, 5, 31) ],
+    [ "Sunderland", "Nial Quinn", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Nial Quinn<\/b><br><br>Sur le banc du 25/07/2006 au 30/08/2006.<\/div>", new Date(2006, 7, 25), new Date(2006, 8, 30) ],
+    [ "Sunderland", "Roy Keane", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Roy Keane<\/b><br><br>Sur le banc du 30/08/2006 au 04/12/2008.<\/div>", new Date(2006, 8, 30), new Date(2008, 12, 4) ],
+    [ "Sunderland", "Ricky Sbragia", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Ricky Sbragia<\/b><br><br>Sur le banc du 04/12/2008 au 24/05/2009.<\/div>", new Date(2008, 12, 4), new Date(2009, 5, 24) ],
+    [ "Sunderland", "Steve Bruce", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Steve Bruce<\/b><br><br>Sur le banc du 03/06/2009 au 30/11/2011.<\/div>", new Date(2009, 6, 3), new Date(2011, 11, 30) ],
+    [ "Sunderland", "Martin O'Neill", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Martin O'Neill<\/b><br><br>Sur le banc du 03/12/2011 au 30/03/2013.<\/div>", new Date(2011, 12, 3), new Date(2013, 3, 30) ],
+    [ "Sunderland", "Paolo Di Canio", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Paolo Di Canio<\/b><br><br>Sur le banc du 31/03/2013 au 22/09/2013.<\/div>", new Date(2013, 3, 31), new Date(2013, 9, 22) ],
+    [ "Sunderland", "Gustavo Poyet", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Gustavo Poyet<\/b><br><br>Sur le banc du 08/10/2013 au 16/03/2015.<\/div>", new Date(2013, 10, 8), new Date(2015, 03, 16) ],
+    [ "Sunderland", "Dick Advocaat", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Dick Advocaat<\/b><br><br>Sur le banc du 17/03/2015 au 04/10/2015.<\/div>", new Date(2015, 3, 17), new Date(2015, 10, 4) ],
+    [ "Sunderland", "Sam Allardyce", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Sam Allardyce<\/b><br><br>Sur le banc depuis le 09/10/2015.<\/div>", new Date(2015, 10, 9), new Date(2016, 1, 8) ],
+    [ "Stoke City", "Lou Macari", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Lou Macari<\/b><br><br>Sur le banc du 29/09/1994 au 30/06/1997.<\/div>", new Date(1996, 10, 1), new Date(1997, 6, 30) ],
+    [ "Stoke City", "Chic Bates", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Chic Bates<\/b><br><br>Sur le banc du 01/07/1997 au 22/01/1998.<\/div>", new Date(1997, 7, 1), new Date(1998, 1, 22) ],
+    [ "Stoke City", "Chris Kamara", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Chris Kamara<\/b><br><br>Sur le banc du 22/01/1998 au 08/04/1998.<\/div>", new Date(1998, 1, 22), new Date(1998, 4, 8) ],
+    [ "Stoke City", "Alan Durban", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Alan Durban<\/b><br><br>Sur le banc du 08/04/1998 au 13/05/1998.<\/div>", new Date(1998, 4, 8), new Date(1998, 5, 13) ],
+    [ "Stoke City", "Brian Little", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Brian Little<\/b><br><br>Sur le banc du 14/05/1998 au 01/06/1999.<\/div>", new Date(1998, 5, 14), new Date(1999, 6, 1) ],
+    [ "Stoke City", "Gary Megson", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Gary Megson<\/b><br><br>Sur le banc du 14/07/1999 au 15/11/1999.<\/div>", new Date(1999, 7, 14), new Date(1999, 11, 15) ],
+    [ "Stoke City", "Gudjon Thordarson", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Gudjon Thordarson<\/b><br><br>Sur le banc du 16/11/1999 au 16/05/2002.<\/div>", new Date(1999, 11, 16), new Date(2002, 5, 16) ],
+    [ "Stoke City", "Steve Cotterill", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Steve Cotterill<\/b><br><br>Sur le banc du 27/05/2002 au 09/10/2002.<\/div>", new Date(2002, 5, 27), new Date(2002, 10, 9) ],
+    [ "Stoke City", "Dave Kevan", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Dave Kevan<\/b><br><br>Sur le banc du 10/10/2002 au 01/11/2002.<\/div>", new Date(2002, 10, 10), new Date(2002, 11, 1) ],
+    [ "Stoke City", "Tony Pulis", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Tony Pulis<\/b><br><br>Sur le banc du 01/11/2002 au 28/06/2005.<\/div>", new Date(2002, 11, 1), new Date(2005, 6, 28) ],
+    [ "Stoke City", "Johan Boskamp", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Johan Boskamp<\/b><br><br>Sur le banc du 29/06/2005 au 01/05/2006.<\/div>", new Date(2005, 6, 29), new Date(2006, 5, 1) ],
+    [ "Stoke City", "Tony Pulis", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Tony Pulis<\/b><br><br>Sur le banc du 14/06/2006 au 21/05/2013.<\/div>", new Date(2006, 6, 14), new Date(2013, 5, 21) ],
+    [ "Stoke City", "Mark Hugues", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Mark Hugues<\/b><br><br>Sur le banc depuis le 30/05/2013.<\/div>", new Date(2013, 5, 30), new Date(2016, 1, 8) ],
+
+    [ "Ligue 1", "Christophe Galtier (ASSE)", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Christophe Galtier (ASSE)<\/b><br><br>Sur le banc depuis le 15/12/2009.<\/div>", new Date(2009, 12, 15), new Date(2016, 1, 8) ],
+    [ "Serie A", "Giampero Ventura (Torino)", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Giampero Ventura (Torino)<\/b><br><br>Sur le banc depuis le 6/6/2011.<\/div>", new Date(2011, 6, 6), new Date(2016, 1, 8) ],
+    [ "Liga", "Diego Simeone (Atletico)", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Diego Simeone (Atletico)<\/b><br><br>Sur le banc depuis le 23/12/2011.<\/div>", new Date(2011, 12, 23), new Date(2016, 1, 8) ],
+    [ "Bundesliga", "Markus Weinzierl (Augsburg)", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Markus Weinzierl (Augsburg)<\/b><br><br>Sur le banc depuis le 01/07/2012.<\/div>", new Date(2012, 7, 1), new Date(2016, 1, 8) ],
+    [ "Liga NOS", "Manuel Machado (Nacional)", "<div style=\"padding:5px 5px 5px 5px;font-family:Arial;font-size:14px\"><b>Manuel Machado (Nacional)<\/b><br><br>Sur le banc depuis le 13/10/2012.<\/div>", new Date(2012, 10, 13), new Date(2016, 1, 8) ],
+
+
+
+
+  ]);
+
+var options = {
+    colors: ['#db4437', '#f4b400', '#db4437', '#f4b400', '#db4437', '#f4b400', '#db4437', '#f4b400', '#db4437', '#f4b400', '#db4437', '#f4b400', '#db4437', '#f4b400', '#db4437', '#f4b400', '#db4437', '#f4b400', '#db4437', '#f4b400','#db4437', '#f4b400',  '#db4437', '#f4b400', '#db4437', '#f4b400', '#db4437', '#f4b400','#db4437', '#f4b400',  '#db4437', '#f4b400', '#db4437', '#f4b400', '#db4437', '#f4b400','#db4437', '#f4b400',  '#db4437', '#f4b400', '#db4437', '#f4b400', '#db4437', '#f4b400','#db4437', '#f4b400',  '#db4437', '#f4b400', '#db4437', '#f4b400', '#db4437', '#f4b400','#db4437', '#f4b400',  '#db4437', '#f4b400', '#db4437', '#f4b400', '#db4437', '#f4b400','#db4437', '#f4b400',  '#db4437', '#f4b400', '#db4437', '#f4b400', '#db4437', '#f4b400','#db4437', '#f4b400', '#db4437', '#f4b400', '#db4437', '#f4b400', '#db4437', '#f4b400', '#5FB404', '#5FB404', '#5FB404', '#5FB404', '#5FB404',],
+    tooltip: { isHtml: true },
+  };
+
+  chart.draw(dataTable, options);
+
+
+}
+
+
+</script>
+
+<!--<h1>Les principaux droits sportifs de Canal + depuis 2005</h1>-->
+<p><strong>Légende :</strong> <span style="font-size:1.5em; color:#db4437; padding:5px;">&#9632;</span><span style="font-size:1.5em; color:#f4b400; padding:5px;">&#9632;</span>Entraîneurs dans les clubs en Premier League depuis 20 ans <span style="font-size:1.5em; color:#5FB404; padding:5px;">&#9632;</span>Les entraîneurs en poste depuis le plus longtemps dans chacun des autres grands championnats européens<br>Cliquez sur chacun des coaches pour connaître la période de présence sur le banc.</p>
+<div id="example3.1" style="height: 720px;"></div>
+
+
+
+
+
+</body>
+
+
+
+</html>
+
+
+
